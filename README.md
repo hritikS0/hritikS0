@@ -47,7 +47,7 @@ A clean and simple notes application with CRUD features, localStorage persistenc
 ---
 
 ## 📫 Contact
-📧 **hritiksharma@gmail.com**
+📧 **sharmahritik8077@gmail.com**
 
 ---
 
