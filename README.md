@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Hritik Sharma
+#  Hi, I'm Hritik Sharma
 
 **MERN Stack Developer** passionate about building clean, modern, and scalable web applications.  
 I enjoy turning ideas into real products through JavaScript, React, and Node.js.
