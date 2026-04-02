@@ -5,7 +5,7 @@
 **MERN & PERN Stack Developer** passionate about building clean, modern, and scalable web applications.  
 I enjoy turning ideas into real products through **TypeScript**, **React**, **Node.js**, and **PostgreSQL**.
 
-
+--
 
 ## 🌐 Connect With Me
 
@@ -14,6 +14,7 @@ I enjoy turning ideas into real products through **TypeScript**, **React**, **No
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sharmahritik8077@gmail.com)  
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://hritik-portfolio.vercel.app)  
 
+--
 
 
 ## 🚀 Tech Stack
