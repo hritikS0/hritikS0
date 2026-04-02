@@ -98,15 +98,24 @@ A full-stack blog platform built with PERN stack (PostgreSQL, Express, React, No
 
 ---
 
+
 ## 📊 GitHub Stats
 
-![Hritik's GitHub Stats](https://github-readme-stats.vercel.app/api?username=hritikS0&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hritikS0&layout=compact&theme=radical)
+<p align="center">
+  <img height="180em"
+       src="https://github-readme-stats-sigma-five.vercel.app/api?username=hritikS0&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&include_all_commits=true&count_private=true" />
+       
+  <img height="180em"
+       src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hritikS0&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&langs_count=6" />
+</p>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hritikS0&theme=radical)
-
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=hritikS0&theme=github_dark&hide_border=true&background=0d1117" />
+</p>
 
 ---
+
+
 
 ## 📫 Let's Connect!
 
