@@ -1,11 +1,13 @@
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+# 👋 Hi, I'm Hritik Sharma
 
-# Hi, I'm Hritik Sharma
+<img align="right" alt="Coding" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" />
 
 **MERN & PERN Stack Developer** passionate about building clean, modern, and scalable web applications.  
 I enjoy turning ideas into real products through **TypeScript**, **React**, **Node.js**, and **PostgreSQL**.
 
---
+<br clear="both"/>
+
+---
 
 ## 🌐 Connect With Me
 
@@ -14,8 +16,7 @@ I enjoy turning ideas into real products through **TypeScript**, **React**, **No
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sharmahritik8077@gmail.com)  
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://hritik-portfolio.vercel.app)  
 
---
-
+---
 
 ## 🚀 Tech Stack
 
@@ -57,7 +58,7 @@ I enjoy turning ideas into real products through **TypeScript**, **React**, **No
 ## 📂 Featured Projects
 
 ### 🤖 **AI Meal Planner**
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/hritiksharma/ai-meal-planner)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/hritikS0/ai-meal-planner)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://ai-meal-planner.vercel.app)
 
 An AI-powered meal planning app that generates personalized meal suggestions based on user preferences and daily goals.
@@ -67,7 +68,7 @@ An AI-powered meal planning app that generates personalized meal suggestions bas
 ---
 
 ### 📝 **Notes App**
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/hritiksharma/notes-app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/hritikS0/notes-app)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://notes-app-hritik.vercel.app)
 
 A clean and simple notes application with CRUD features, localStorage persistence, and a responsive UI.
@@ -77,7 +78,7 @@ A clean and simple notes application with CRUD features, localStorage persistenc
 ---
 
 ### 🐘 **PERN Blog Platform** (Coming Soon)
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/hritiksharma/pern-blog)
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/hritikS0/pern-blog)
 
 A full-stack blog platform built with PERN stack (PostgreSQL, Express, React, Node.js) and Prisma ORM.
 
@@ -104,17 +105,6 @@ A full-stack blog platform built with PERN stack (PostgreSQL, Express, React, No
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hritikS0&theme=radical)
 
----
-
-## 🏆 GitHub Trophies
-
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=hritikS0&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
----
-
-## 👀 Profile Views
-
-![](https://visitcount.itsvg.in/api?id=hritikS0&icon=0&color=11)
 
 ---
 
