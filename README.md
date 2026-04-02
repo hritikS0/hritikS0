@@ -1,19 +1,9 @@
-#  Hi, I'm Hritik Sharma
-
-**MERN Stack Developer** passionate about building clean, modern, and scalable web applications.  
-I enjoy turning ideas into real products through JavaScript, React, and Node.js.
-
----
-
-## 🚀 Tech Stack
-
-### 🖥️ Frontend
-- HTML, CSS, JavaScript (ES6+)<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 # 👋 Hi, I'm Hritik Sharma
 
 **MERN & PERN Stack Developer** passionate about building clean, modern, and scalable web applications.  
-I enjoy turning ideas into real products through JavaScript, React, Node.js, and PostgreSQL.
+I enjoy turning ideas into real products through **TypeScript**, **React**, **Node.js**, and **PostgreSQL**.
 
 ---
 
@@ -34,14 +24,16 @@ I enjoy turning ideas into real products through JavaScript, React, Node.js, and
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
 
 ### ⚙️ Backend
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 ### 🗄️ Database & ORM
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -71,7 +63,7 @@ I enjoy turning ideas into real products through JavaScript, React, Node.js, and
 
 An AI-powered meal planning app that generates personalized meal suggestions based on user preferences and daily goals.
 
-**Tech:** React, Node.js, Express, MongoDB, OpenAI API, Docker
+**Tech:** React, TypeScript, Node.js, Express, MongoDB, OpenAI API, Docker, MUI
 
 ---
 
@@ -81,7 +73,7 @@ An AI-powered meal planning app that generates personalized meal suggestions bas
 
 A clean and simple notes application with CRUD features, localStorage persistence, and a responsive UI.
 
-**Tech:** React, Tailwind CSS, LocalStorage
+**Tech:** React, TypeScript, Tailwind CSS, MUI, LocalStorage
 
 ---
 
@@ -90,13 +82,13 @@ A clean and simple notes application with CRUD features, localStorage persistenc
 
 A full-stack blog platform built with PERN stack (PostgreSQL, Express, React, Node.js) and Prisma ORM.
 
-**Tech:** PostgreSQL, Express, React, Node.js, Prisma, Docker
+**Tech:** TypeScript, PostgreSQL, Express, React, Node.js, Prisma, Docker, MUI
 
 ---
 
 ## 📈 Currently Learning
 
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript_Advanced-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![Advanced React](https://img.shields.io/badge/Advanced_React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![AI](https://img.shields.io/badge/AI_Integrations-412991?style=for-the-badge&logo=openai&logoColor=white)
@@ -105,3 +97,29 @@ A full-stack blog platform built with PERN stack (PostgreSQL, Express, React, No
 
 ---
 
+## 📊 GitHub Stats
+
+![Hritik's GitHub Stats](https://github-readme-stats.vercel.app/api?username=hritiksharma&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hritiksharma&layout=compact&theme=radical)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hritiksharma&theme=radical)
+
+---
+
+## 🏆 GitHub Trophies
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=hritiksharma&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+
+---
+
+## 👀 Profile Views
+
+![](https://visitcount.itsvg.in/api?id=hritiksharma&icon=0&color=11)
+
+---
+
+## 📫 Let's Connect!
+
+I'm always open to collaborating on interesting projects or discussing tech. Feel free to reach out!
+
+⭐ **Check out my repositories and feel free to connect!**
