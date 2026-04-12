@@ -67,13 +67,13 @@ An AI-powered meal planning app that generates personalized meal suggestions bas
 
 ---
 
-### 📝 **Notes App**
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/hritikS0/notes-app)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://notes-app-hritik.vercel.app)
+### 📝 **Notely**
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/hritikS0/Notely.git)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-FF5722?style=for-the-badge&logo=vercel&logoColor=white)](https://notely-tawny-nine.vercel.app/)
 
-A clean and simple notes application with CRUD features, localStorage persistence, and a responsive UI.
+Notely is a minimalist and highly performant notes application built for thinkers, creators, and doers. It offers a distraction-free environment to organize your thoughts and tasks without the clutter.
 
-**Tech:** React, TypeScript, Zustand, Tailwind CSS, MUI, LocalStorage
+**Tech:** React, JavaScript, Zustand, Tailwind CSS, Node.js, Express, MongoDB
 
 ---
 
