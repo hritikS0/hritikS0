@@ -1,164 +1,192 @@
-# 👋 Hi, I'm Hritik Sharma
+<div align="center">
 
-<img align="right" alt="Coding" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" />
+# ⚡ Hritik Sharma
 
-### Full Stack Developer | MERN & PERN Stack
+### Full Stack Developer • AI Applications • Developer Tools
 
-I'm a BCA graduate and Full Stack Developer focused on building scalable web applications using **TypeScript**, **React**, **Node.js**, **PostgreSQL**, and **Docker**.
+Building scalable web applications, AI-powered products, and developer-focused tools using modern technologies.
 
-I enjoy solving real-world problems through clean architecture, modern UI design, AI-powered applications, and developer-focused tools.
+<br>
 
-<br clear="both"/>
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge\&logo=vercel\&logoColor=white)](https://portfolio-v2-eight-alpha-95.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github)](https://github.com/hritikS0)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin)](https://www.linkedin.com/in/hritik-sharma-91336430b/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:sharmahritik8077@gmail.com)
 
----
-
-## 🎯 Quick Highlights
-
-* Full Stack MERN & PERN Developer
-* Strong TypeScript & React Foundation
-* Experience with PostgreSQL, Prisma & MongoDB
-* Building AI-Powered Applications
-* Docker & Containerization Experience
-* Open to Full Stack Developer Opportunities
+</div>
 
 ---
 
-## 🌐 Connect With Me
+## 👋 About Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/hritik-sharma-91336430b/)
+I am a Full Stack Developer passionate about building modern web applications and AI-powered products.
 
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/hritikS0)
+My work focuses on creating scalable backend systems, intuitive frontend experiences, and practical AI integrations that solve real-world problems.
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:sharmahritik8077@gmail.com)
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge\&logo=vercel\&logoColor=white)](https://portfolio-v2-eight-alpha-95.vercel.app)
+Currently exploring advanced TypeScript, AI engineering, and scalable system design while building production-ready applications.
 
 ---
 
-## 💼 Experience
+# 🚀 What I Build
 
-### Full Stack Developer Intern
+<table>
+<tr>
+<td width="50%">
 
-* Developed and maintained full-stack web applications using MERN technologies
-* Built REST APIs with Node.js and Express
-* Worked with MongoDB and PostgreSQL databases
-* Collaborated using Git and GitHub workflows
-* Debugged production issues and implemented new features
-* Gained hands-on experience with modern web development practices
+### 🌐 Full Stack Applications
+
+Modern web applications, dashboards, SaaS products, and internal business tools.
+
+**React** • **TypeScript**
+**Node.js** • **PostgreSQL**
+**Prisma** • **Docker**
+
+</td>
+
+<td width="50%">
+
+### 🤖 AI Products
+
+AI-powered experiences combining chat, RAG, vision, and automation.
+
+**AI Chat** • **RAG**
+**Vision AI** • **Automation**
+**Developer Assistants**
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### ⚙️ Backend Systems
+
+Scalable APIs, authentication systems, and database architecture.
+
+**Express** • **REST APIs**
+**JWT Auth** • **Database Design**
+
+</td>
+
+<td width="50%">
+
+### 🛠 Developer Tools
+
+Products that improve developer productivity and workflows.
+
+**ToolStackAI**
+**Code Analysis**
+**Workflow Automation**
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🚀 Tech Stack
-
-### Frontend
-
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge\&logo=html5\&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge\&logo=css3\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge\&logo=javascript\&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge\&logo=typescript\&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge\&logo=react\&logoColor=%2361DAFB)
-![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
-![Zustand](https://img.shields.io/badge/zustand-%2320232a.svg?style=for-the-badge\&logo=react\&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge\&logo=tailwind-css\&logoColor=white)
-![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge\&logo=mui\&logoColor=white)
-
-### Backend
-
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge\&logo=node.js\&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge\&logo=express\&logoColor=%2361DAFB)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge\&logo=typescript\&logoColor=white)
-
-### Database & ORM
-
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge\&logo=mongodb\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge\&logo=Prisma\&logoColor=white)
-![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge\&logo=mongoose\&logoColor=white)
-
-### DevOps & Cloud
-
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge\&logo=docker\&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS_S3-FF9900?style=for-the-badge\&logo=amazonaws\&logoColor=white)
-![Cloudflare R2](https://img.shields.io/badge/Cloudflare_R2-F38020?style=for-the-badge\&logo=cloudflare\&logoColor=white)
-
-### Tools
-
-Git • GitHub • Postman • Vercel • Render • MongoDB Atlas • Prisma Studio
-
----
-
-# 📂 Featured Projects
+# ⭐ Featured Project
 
 ## 🤖 ToolStackAI
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge\&logo=github)](https://github.com/hritikS0/ToolstackAi)
+AI-powered developer workspace combining multiple tools into a single platform.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-FF5722?style=for-the-badge\&logo=vercel\&logoColor=white)](https://toolstack-ai.vercel.app)
+### Key Features
 
-An AI-powered developer platform combining multiple productivity tools into a single application.
-
-### Features
-
-* AI Chat with Streaming Responses
-* PDF Chat using RAG
-* Vision-Powered Image Analysis
-* Multimodal Vision Chat
+* Streaming AI Chat
+* PDF Intelligence (RAG)
+* Vision Chat
+* Image Analysis
 * AI Code Debugger
 * JWT Authentication
-* Theme Manager with 12 Themes
-* Dockerized Full Stack Architecture
+* PostgreSQL + Prisma
+* Dockerized Architecture
 
-### Tech
+### Stack
 
-React • TypeScript • Express • PostgreSQL • Prisma • NVIDIA AI APIs • Docker • Tailwind CSS
+`React 19` `TypeScript` `Express` `PostgreSQL` `Prisma` `Docker` `NVIDIA AI`
 
----
-## 📝 Notely
+### Links
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge\&logo=github)](https://github.com/hritikS0/Notely)
+🔗 **Live Demo**
+https://toolstack-ai.vercel.app
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-FF5722?style=for-the-badge\&logo=vercel\&logoColor=white)](https://notely-tawny-nine.vercel.app/)
-
-A minimalist and highly performant note-taking application designed for productivity and organization.
-
-### Tech
-
-React • JavaScript • Zustand • Tailwind CSS • Node.js • Express • MongoDB
+🔗 **Repository**
+https://github.com/hritikS0/ToolstackAi
 
 ---
 
-## 🚧 Currently Building
+# 💻 Tech Stack
 
-* Advanced TypeScript Applications
-* AI-Powered Developer Tools
-* Next.js Projects
-* Scalable PostgreSQL Architectures
-* Dockerized Backend Services
-* Modern Full Stack Applications
+<table>
+<tr>
+<th>Category</th>
+<th>Technologies</th>
+</tr>
+
+<tr>
+<td><b>Frontend</b></td>
+<td>
+React • Next.js • TypeScript • JavaScript • Tailwind CSS • Zustand • MUI
+</td>
+</tr>
+
+<tr>
+<td><b>Backend</b></td>
+<td>
+Node.js • Express.js • TypeScript • REST APIs
+</td>
+</tr>
+
+<tr>
+<td><b>Database</b></td>
+<td>
+PostgreSQL • Prisma • MongoDB • Mongoose
+</td>
+</tr>
+
+<tr>
+<td><b>AI</b></td>
+<td>
+OpenAI • NVIDIA NIM • RAG • Embeddings • Vision Models
+</td>
+</tr>
+
+<tr>
+<td><b>DevOps</b></td>
+<td>
+Docker • Docker Compose • Vercel • Render
+</td>
+</tr>
+
+<tr>
+<td><b>Tools</b></td>
+<td>
+Git • GitHub • Postman • Prisma Studio
+</td>
+</tr>
+
+</table>
 
 ---
-
-## 📊 GitHub Stats
+# 📈 GitHub Activity
 
 <p align="center">
-  <img width="400"
-       src="https://github-readme-stats.vercel.app/api?username=hritikS0&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img width="400"
-       src="https://streak-stats.demolab.com?user=hritikS0&theme=tokyonight&hide_border=true" />
-
-<img width="400"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=hritikS0&layout=compact&theme=tokyonight&hide_border=true" />
-
+<img src="https://github-readme-stats.vercel.app/api?username=hritikS0&show_icons=true&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-## 📫 Let's Connect!
+# 🌍 Connect
 
-I'm always interested in collaborating on exciting projects, discussing technology, and exploring new opportunities.
+* Portfolio → https://portfolio-v2-eight-alpha-95.vercel.app
+* LinkedIn → https://www.linkedin.com/in/hritik-sharma-91336430b/
+* GitHub → https://github.com/hritikS0
+* Email → [sharmahritik8077@gmail.com](mailto:sharmahritik8077@gmail.com)
 
-⭐ Feel free to check out my repositories and connect with me.
+---
+
+<div align="center">
+
+> Building products. Solving problems. Learning continuously.
+
+</div>
