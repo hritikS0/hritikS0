@@ -178,7 +178,7 @@ Git • GitHub • Postman • Prisma Studio
 
 # 🌍 Connect
 
-* Portfolio → https://portfolio-v2-eight-alpha-95.vercel.app
+* Portfolio → https://portfolio-v1-khaki-rho.vercel.app/
 * LinkedIn → https://www.linkedin.com/in/hritik-sharma-91336430b/
 * GitHub → https://github.com/hritikS0
 * Email → [sharmahritik8077@gmail.com](mailto:sharmahritik8077@gmail.com)
