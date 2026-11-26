@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Hritik Sharma</title>
+  <desc id="d">Full Stack Developer building role-based platforms, streaming AI systems, and self-hosted infrastructure.</desc>
+  <style>
+    .s { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+    .m { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', Consolas, 'Liberation Mono', monospace; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b10"/>
+      <stop offset=".6" stop-color="#0b1018"/>
+      <stop offset="1" stop-color="#0e1522"/>
+    </linearGradient>
+    <radialGradient id="ambient" cx=".82" cy=".25" r=".55">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity=".14"/>
+      <stop offset=".5" stop-color="#818cf8" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#080b10" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#283548"/>
+      <stop offset=".5" stop-color="#192231"/>
+      <stop offset="1" stop-color="#283548"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset=".65" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#38bdf8" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r=".8" fill="#64748b" fill-opacity=".22"/>
+    </pattern>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cardClip">
+      <rect width="1000" height="320" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect width="1000" height="320" fill="url(#bg)"/>
+    <rect width="1000" height="320" fill="url(#dots)"/>
+    <rect width="1000" height="320" fill="url(#ambient)"/>
+
+    <!-- Subtle top highlight -->
+    <line x1="80" y1="1" x2="920" y2="1" stroke="url(#accentLine)" stroke-width="1"/>
+
+    <!-- Minimal geometric telemetry visual on the right -->
+    <g transform="translate(800 160)" opacity=".9">
+      <!-- Calm concentric hairlines -->
+      <circle r="110" fill="none" stroke="#1e293b" stroke-width="1"/>
+      <circle r="78" fill="none" stroke="#1e293b" stroke-width="1" stroke-dasharray="2 6"/>
+      <circle r="46" fill="none" stroke="#38bdf8" stroke-opacity=".25" stroke-width="1">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Axis hairlines -->
+      <line x1="-130" y1="0" x2="130" y2="0" stroke="#1e293b" stroke-width="1"/>
+      <line x1="0" y1="-130" x2="0" y2="130" stroke="#1e293b" stroke-width="1"/>
+
+      <!-- Orbiting signal nodes (slow, calm) -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="36s" repeatCount="indefinite"/>
+        <circle cx="110" cy="0" r="3" fill="#38bdf8" filter="url(#softGlow)"/>
+        <circle cx="-110" cy="0" r="2" fill="#818cf8" opacity=".7"/>
+      </g>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="28s" repeatCount="indefinite"/>
+        <circle cx="0" cy="-78" r="2.5" fill="#34d399" filter="url(#softGlow)"/>
+      </g>
+
+      <!-- Subtle pulse ring -->
+      <circle r="22" fill="none" stroke="#38bdf8" stroke-width="1">
+        <animate attributeName="r" values="22;46" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values=".4;0" dur="4s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Center core -->
+      <circle r="22" fill="#0b111b" stroke="#38bdf8" stroke-opacity=".5" stroke-width="1.2"/>
+      <text class="m" y="4" font-size="11" font-weight="600" fill="#e2e8f0" text-anchor="middle" letter-spacing="1">HS</text>
+
+      <!-- Minimal cardinal labels -->
+      <g class="m" font-size="9" letter-spacing="2" fill="#475569" text-anchor="middle">
+        <text y="-118">AI</text>
+        <text x="126" y="3">API</text>
+        <text y="126">SSE</text>
+        <text x="-128" y="3">SYS</text>
+      </g>
+    </g>
+
+    <!-- Left content block -->
+    <g transform="translate(56 54)">
+      <!-- Eyebrow -->
+      <g>
+        <circle cx="5" cy="-4" r="3" fill="#34d399">
+          <animate attributeName="opacity" values="1;.35;1" dur="2.6s" repeatCount="indefinite"/>
+        </circle>
+        <text class="m" x="18" y="0" font-size="11" letter-spacing="2" fill="#64748b">FULL-STACK · AI SYSTEMS · INFRA</text>
+      </g>
+
+      <!-- Name -->
+      <text class="s" x="0" y="64" font-size="52" font-weight="700" letter-spacing="-1.5" fill="url(#titleGrad)">Hritik Sharma</text>
+
+      <!-- Tagline -->
+      <text class="s" x="0" y="102" font-size="16" font-weight="400" fill="#94a3b8">
+        Building role-based platforms, streaming AI interfaces, and self-hosted systems.
+      </text>
+
+      <!-- Clean metadata pills -->
+      <g class="m" font-size="11" letter-spacing=".5" transform="translate(0 144)">
+        <rect width="128" height="28" rx="14" fill="#0f172a" stroke="#1e293b"/>
+        <circle cx="16" cy="14" r="3" fill="#34d399"/>
+        <text x="28" y="18" fill="#cbd5e1">Available</text>
+
+        <rect x="138" width="152" height="28" rx="14" fill="#0f172a" stroke="#1e293b"/>
+        <text x="154" y="18" fill="#94a3b8">New Delhi, IN</text>
+
+        <rect x="300" width="198" height="28" rx="14" fill="#0f172a" stroke="#1e293b"/>
+        <text x="316" y="18" fill="#94a3b8">TechPlek Technologies</text>
+      </g>
+
+      <!-- Subtle bottom spec line -->
+      <text class="m" x="0" y="216" font-size="11" fill="#475569" letter-spacing="1">
+        hritik.sys  ·  online since dec 2025  ·  bca 2023–2025
+      </text>
+    </g>
+  </g>
+
+  <!-- Crisp outer 1px border -->
+  <rect x=".5" y=".5" width="999" height="319" rx="16" fill="none" stroke="url(#borderGrad)"/>
+</svg>
