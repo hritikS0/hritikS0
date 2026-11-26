@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 364" width="1000" height="364" role="img" aria-labelledby="t d">
+  <title id="t">Technical Stack</title>
+  <desc id="d">A gilded museum-framed oil study on dark linen, featuring twelve textured impasto brushstrokes for TypeScript, React, Next.js, Node.js, PostgreSQL, Prisma, Docker, Linux, Redis, S3, RAG, and SSE.</desc>
+  <style>
+    .g { font-family: Georgia, 'Times New Roman', serif; }
+    .lbl { font-size: 13px; font-style: italic; font-weight: 700; fill: #f1e6cc; }
+    .sub { font-size: 9.5px; letter-spacing: 1.5px; fill: #a99a7c; }
+  </style>
+  <defs>
+    <radialGradient id="wall" cx=".5" cy=".4" r=".85">
+      <stop offset="0" stop-color="#2d261d"/>
+      <stop offset="1" stop-color="#12100c"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a6218"/>
+      <stop offset=".25" stop-color="#e0b64a"/>
+      <stop offset=".5" stop-color="#f6df94"/>
+      <stop offset=".75" stop-color="#c29330"/>
+      <stop offset="1" stop-color="#6b4812"/>
+    </linearGradient>
+    <linearGradient id="gold2" x1="1" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#8a6218"/>
+      <stop offset=".3" stop-color="#d7a93b"/>
+      <stop offset=".55" stop-color="#f3d98a"/>
+      <stop offset=".8" stop-color="#b98a2a"/>
+      <stop offset="1" stop-color="#6b4812"/>
+    </linearGradient>
+    <radialGradient id="canvas" cx=".5" cy=".45" r=".75">
+      <stop offset="0" stop-color="#261d14"/>
+      <stop offset="1" stop-color="#15100a"/>
+    </radialGradient>
+    <radialGradient id="vig" cx=".5" cy=".5" r=".75">
+      <stop offset=".55" stop-color="#0d0905" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0d0905" stop-opacity=".55"/>
+    </radialGradient>
+    <pattern id="weave" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 .5H4M.5 0V4" stroke="#000" stroke-width=".7" stroke-opacity=".12"/>
+    </pattern>
+    <filter id="impasto" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="420" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency=".045" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="4.5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="canvasn" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="420">
+      <feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="2" seed="9"/>
+      <feColorMatrix values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  .55 0 0 0 -.18"/>
+    </filter>
+    <clipPath id="pclip">
+      <rect x="36" y="26" width="928" height="316"/>
+    </clipPath>
+  </defs>
+
+  <!-- Gallery wall -->
+  <rect width="1000" height="420" fill="url(#wall)"/>
+  <ellipse cx="500" cy="190" rx="520" ry="230" fill="#f3e3b8" opacity=".04"/>
+
+  <!-- Gilded frame matching paint-hero.svg -->
+  <rect x="14" y="10" width="980" height="356" rx="4" fill="#000" opacity=".45"/>
+  <rect x="8" y="4" width="984" height="358" rx="4" fill="url(#gold)"/>
+  <rect x="15" y="11" width="970" height="344" rx="3" fill="none" stroke="#5a3d0e" stroke-width="1.8" stroke-dasharray="2 6" opacity=".6"/>
+  <rect x="18" y="14" width="964" height="338" rx="2" fill="url(#gold2)"/>
+  <rect x="26" y="20" width="948" height="326" fill="#3a2810"/>
+  <rect x="32" y="23" width="936" height="320" fill="#1c130a" stroke="#f3d98a" stroke-opacity=".4"/>
+
+  <!-- Corner brass studs -->
+  <g fill="#f6df94" stroke="#6b4812" stroke-width="1.2">
+    <circle cx="22" cy="17" r="6"/><circle cx="978" cy="17" r="6"/>
+    <circle cx="22" cy="350" r="6"/><circle cx="978" cy="350" r="6"/>
+  </g>
+  <g fill="#b88a2a">
+    <circle cx="22" cy="17" r="2.2"/><circle cx="978" cy="17" r="2.2"/>
+    <circle cx="22" cy="350" r="2.2"/><circle cx="978" cy="350" r="2.2"/>
+  </g>
+
+  <!-- Canvas interior -->
+  <g clip-path="url(#pclip)">
+    <rect x="36" y="26" width="928" height="316" fill="url(#canvas)"/>
+
+    <!-- Subtle painterly under-wash -->
+    <g filter="url(#impasto)" opacity=".14" fill="none" stroke-linecap="round">
+      <path d="M80 120 Q300 95 520 130 T920 105" stroke="#e0b64a" stroke-width="28"/>
+      <path d="M60 250 Q280 280 540 240 T940 265" stroke="#4a86c9" stroke-width="26"/>
+    </g>
+
+    <!-- 12 Impasto Brushstroke Swatches (2 rows x 6) -->
+    <!-- Row 1: y = 104, centers x = 116, 270, 424, 578, 732, 884 -->
+
+    <!-- 1. TypeScript (Cobalt) -->
+    <g transform="translate(116 96)">
+      <g filter="url(#impasto)">
+        <path d="M-46 6 Q-24 -16 6 -12 Q36 -8 48 6 Q32 22 -4 20 Q-34 18 -46 6Z" fill="#2b5fa3" stroke="#1a3b6b" stroke-width="1.4"/>
+        <path d="M-34 2 Q-12 -11 16 -8 Q34 -4 38 4 Q16 14 -14 12 Z" fill="#4a86c9" opacity=".88"/>
+        <path d="M-24 -3 Q0 -11 22 -4" stroke="#8ec2e8" stroke-width="3" stroke-linecap="round" fill="none" opacity=".65">
+          <animate attributeName="opacity" values=".35;.75;.35" dur="4.5s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <text class="g lbl" y="44" text-anchor="middle">TypeScript</text>
+      <text class="g sub" y="59" text-anchor="middle">LANGUAGE</text>
+    </g>
+
+    <!-- 2. React (Cerulean) -->
+    <g transform="translate(270 96)">
+      <g filter="url(#impasto)">
+        <path d="M-44 4 Q-20 -18 10 -12 Q42 -6 46 8 Q26 24 -8 20 Q-38 16 -44 4Z" fill="#3a8ba1" stroke="#245968" stroke-width="1.4"/>
+        <path d="M-32 1 Q-8 -12 18 -7 Q34 -2 36 6 Q12 15 -18 11 Z" fill="#6fb0d8" opacity=".88"/>
+        <path d="M-22 -4 Q2 -12 24 -3" stroke="#bce3f5" stroke-width="3" stroke-linecap="round" fill="none" opacity=".65">
+          <animate attributeName="opacity" values=".35;.75;.35" dur="3.8s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <text class="g lbl" y="44" text-anchor="middle">React</text>
+      <text class="g sub" y="59" text-anchor="middle">INTERFACE</text>
+    </g>
+
+    <!-- 3. Next.js (Warm Ivory / Lead White) -->
+    <g transform="translate(424 96)">
+      <g filter="url(#impasto)">
+        <path d="M-45 5 Q-22 -16 8 -13 Q38 -9 46 7 Q28 23 -6 20 Q-36 17 -45 5Z" fill="#cfc6b0" stroke="#8a826f" stroke-width="1.4"/>
+        <path d="M-33 2 Q-10 -11 18 -7 Q35 -3 37 5 Q14 14 -16 11 Z" fill="#efe6d2" opacity=".9"/>
+        <path d="M-24 -3 Q0 -11 22 -4" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity=".7">
+          <animate attributeName="opacity" values=".4;.8;.4" dur="5.2s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <text class="g lbl" y="44" text-anchor="middle">Next.js</text>
+      <text class="g sub" y="59" text-anchor="middle">FRAMEWORK</text>
+    </g>
+
+    <!-- 4. Node.js (Sage / Viridian) -->
+    <g transform="translate(578 96)">
+      <g filter="url(#impasto)">
+        <path d="M-45 6 Q-24 -15 6 -13 Q38 -10 47 5 Q30 22 -5 20 Q-35 18 -45 6Z" fill="#4e8a50" stroke="#2f5731" stroke-width="1.4"/>
+        <path d="M-32 2 Q-10 -10 17 -7 Q35 -3 36 5 Q14 14 -16 12 Z" fill="#7ab171" opacity=".88"/>
+        <path d="M-23 -3 Q1 -10 23 -3" stroke="#b6d9af" stroke-width="3" stroke-linecap="round" fill="none" opacity=".65">
+          <animate attributeName="opacity" values=".35;.75;.35" dur="4.2s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <text class="g lbl" y="44" text-anchor="middle">Node.js</text>
+      <text class="g sub" y="59" text-anchor="middle">RUNTIME</text>
+    </g>
+
+    <!-- 5. PostgreSQL (Ultramarine) -->
+    <g transform="translate(732 96)">
+      <g filter="url(#impasto)">
+        <path d="M-46 5 Q-22 -17 9 -12 Q39 -7 46 8 Q27 23 -7 20 Q-37 16 -46 5Z" fill="#3b4f8c" stroke="#222f57" stroke-width="1.4"/>
+        <path d="M-34 2 Q-11 -11 17 -7 Q34 -2 36 6 Q13 14 -17 11 Z" fill="#5a6aa8" opacity=".9"/>
+        <path d="M-24 -4 Q0 -11 22 -3" stroke="#9aa6c8" stroke-width="3" stroke-linecap="round" fill="none" opacity=".65">
+          <animate attributeName="opacity" values=".35;.75;.35" dur="4.9s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <text class="g lbl" y="44" text-anchor="middle">PostgreSQL</text>
+      <text class="g sub" y="59" text-anchor="middle">DATABASE</text>
+    </g>
+
+    <!-- 6. Prisma (Verdigris Teal) -->
+    <g transform="translate(884 96)">
+      <g filter="url(#impasto)">
+        <path d="M-44 6 Q-20 -16 8 -13 Q38 -9 45 6 Q28 22 -6 20 Q-35 18 -44 6Z" fill="#3f7a74" stroke="#254c48" stroke-width="1.4"/>
+        <path d="M-32 2 Q-9 -11 17 -7 Q33 -2 35 5 Q13 14 -16 11 Z" fill="#6aa09a" opacity=".88"/>
+        <path d="M-22 -3 Q1 -11 22 -4" stroke="#a7d2cf" stroke-width="3" stroke-linecap="round" fill="none" opacity=".65">
+          <animate attributeName="opacity" values=".35;.75;.35" dur="4.4s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <text class="g lbl" y="44" text-anchor="middle">Prisma</text>
+      <text class="g sub" y="59" text-anchor="middle">ORM</text>
+    </g>
+
+    <!-- Row 2: y = 232 -->
+
+    <!-- 7. Docker (Prussian Cyan) -->
+    <g transform="translate(116 226)">
+      <g filter="url(#impasto)">
+        <path d="M-45 5 Q-22 -16 7 -13 Q38 -9 46 6 Q28 22 -6 20 Q-36 17 -45 5Z" fill="#2a73a8" stroke="#184769" stroke-width="1.4"/>
+        <path d="M-33 2 Q-10 -11 17 -7 Q34 -2 36 5 Q14 14 -16 11 Z" fill="#4f99cc" opacity=".88"/>
+        <path d="M-23 -3 Q0 -11 22 -4" stroke="#9ad0f5" stroke-width="3" stroke-linecap="round" fill="none" opacity=".65">
+          <animate attributeName="opacity" values=".35;.75;.35" dur="4.7s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <text class="g lbl" y="44" text-anchor="middle">Docker</text>
+      <text class="g sub" y="59" text-anchor="middle">CONTAINERS</text>
+    </g>
+
+    <!-- 8. Linux (Cadmium Ochre) -->
+    <g transform="translate(270 226)">
+      <g filter="url(#impasto)">
+        <path d="M-45 6 Q-22 -16 8 -13 Q38 -9 46 6 Q28 22 -6 20 Q-36 18 -45 6Z" fill="#c98a22" stroke="#7d5413" stroke-width="1.4"/>
+        <path d="M-33 2 Q-10 -11 17 -7 Q34 -2 36 5 Q14 14 -16 11 Z" fill="#e3b23c" opacity=".9"/>
+        <path d="M-23 -3 Q0 -11 22 -4" stroke="#f7e29a" stroke-width="3" stroke-linecap="round" fill="none" opacity=".65">
+          <animate attributeName="opacity" values=".35;.75;.35" dur="5.1s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <text class="g lbl" y="44" text-anchor="middle">Linux</text>
+      <text class="g sub" y="59" text-anchor="middle">SYSTEMS</text>
+    </g>
+
+    <!-- 9. Redis (Vermilion) -->
+    <g transform="translate(424 226)">
+      <g filter="url(#impasto)">
+        <path d="M-45 5 Q-22 -16 8 -13 Q38 -9 46 7 Q28 22 -6 20 Q-36 17 -45 5Z" fill="#b8321f" stroke="#6e1d12" stroke-width="1.4"/>
+        <path d="M-33 2 Q-10 -11 17 -7 Q34 -2 36 5 Q14 14 -16 11 Z" fill="#d65542" opacity=".88"/>
+        <path d="M-23 -3 Q0 -11 22 -4" stroke="#f29b8e" stroke-width="3" stroke-linecap="round" fill="none" opacity=".65">
+          <animate attributeName="opacity" values=".35;.75;.35" dur="4.1s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <text class="g lbl" y="44" text-anchor="middle">Redis</text>
+      <text class="g sub" y="59" text-anchor="middle">CACHE</text>
+    </g>
+
+    <!-- 10. Amazon S3 (Burnt Sienna) -->
+    <g transform="translate(578 226)">
+      <g filter="url(#impasto)">
+        <path d="M-45 6 Q-22 -16 8 -13 Q38 -9 46 6 Q28 22 -6 20 Q-36 18 -45 6Z" fill="#c86b20" stroke="#783f11" stroke-width="1.4"/>
+        <path d="M-33 2 Q-10 -11 17 -7 Q34 -2 36 5 Q14 14 -16 11 Z" fill="#e8862a" opacity=".9"/>
+        <path d="M-23 -3 Q0 -11 22 -4" stroke="#f6bd7e" stroke-width="3" stroke-linecap="round" fill="none" opacity=".65">
+          <animate attributeName="opacity" values=".35;.75;.35" dur="3.6s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <text class="g lbl" y="44" text-anchor="middle">Amazon S3</text>
+      <text class="g sub" y="59" text-anchor="middle">STORAGE</text>
+    </g>
+
+    <!-- 11. RAG (Violet Mauve) -->
+    <g transform="translate(732 226)">
+      <g filter="url(#impasto)">
+        <path d="M-45 5 Q-22 -16 8 -13 Q38 -9 46 7 Q28 22 -6 20 Q-36 17 -45 5Z" fill="#704e99" stroke="#442d5e" stroke-width="1.4"/>
+        <path d="M-33 2 Q-10 -11 17 -7 Q34 -2 36 5 Q14 14 -16 11 Z" fill="#926ec2" opacity=".88"/>
+        <path d="M-23 -3 Q0 -11 22 -4" stroke="#c8b0e8" stroke-width="3" stroke-linecap="round" fill="none" opacity=".65">
+          <animate attributeName="opacity" values=".35;.75;.35" dur="4.6s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <text class="g lbl" y="44" text-anchor="middle">RAG</text>
+      <text class="g sub" y="59" text-anchor="middle">RETRIEVAL</text>
+    </g>
+
+    <!-- 12. SSE (Naples Yellow / Sunlight) -->
+    <g transform="translate(884 226)">
+      <g filter="url(#impasto)">
+        <path d="M-44 6 Q-20 -16 8 -13 Q38 -9 45 6 Q28 22 -6 20 Q-35 18 -44 6Z" fill="#c9a528" stroke="#7a6315" stroke-width="1.4"/>
+        <path d="M-32 2 Q-9 -11 17 -7 Q33 -2 35 5 Q13 14 -16 11 Z" fill="#f0d672" opacity=".9"/>
+        <path d="M-22 -3 Q1 -11 22 -4" stroke="#fdf3c4" stroke-width="3" stroke-linecap="round" fill="none" opacity=".7">
+          <animate attributeName="opacity" values=".35;.8;.35" dur="5.4s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <text class="g lbl" y="44" text-anchor="middle">SSE</text>
+      <text class="g sub" y="59" text-anchor="middle">STREAMING</text>
+    </g>
+
+    <!-- Canvas texture & vignette -->
+    <rect x="36" y="26" width="928" height="316" filter="url(#canvasn)" opacity=".45"/>
+    <rect x="36" y="26" width="928" height="316" fill="url(#weave)"/>
+    <rect x="36" y="26" width="928" height="316" fill="url(#vig)"/>
+  </g>
+</svg>

@@ -1,125 +1,89 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Hritik Sharma — Full Stack Developer, AI Systems, Infrastructure" />
+<img src="assets/paint-hero.svg" width="100%" alt="The Lit Window: an oil-style painting of a cabin with a glowing window under a swirling sunset sky, with a museum label for Hritik Sharma" />
 
 </div>
 
 <br>
 
-> *"I like systems that move data between things: a Postgres row to a Raspberry Pi screen, a PDF to a vector index, a model token to a browser, one at a time."*
+<p align="center">
+<em>Full-stack developer, New Delhi.</em><br>
+<em>I enjoy building things behind the scenes — APIs that connect systems, databases that keep things organised, services that communicate, and backend logic that makes complex applications feel effortless.</em>
+</p>
 
-| | |
-| :--- | :--- |
-| **Role** | Full Stack Developer @ **TechPlek Technologies** *(Intern → Full-Time, 2026)* |
-| **Location** | New Delhi, India · Online since Dec 2025 |
-| **Focus** | Role-based platforms · Streaming AI · Self-hosted hardware |
-| **Education** | BCA, GNIOT Institute of Professional Studies *(2023–2025)* |
+<img src="assets/brush-divider.svg" width="100%" alt="" />
 
-<br>
+## Selected Works
 
-<img src="assets/divider.svg" width="100%" alt="" />
+### I. ToolStackAI
+*An AI workspace, 2026* &nbsp;·&nbsp; [live](https://toolstack-ai.vercel.app) &nbsp;·&nbsp; [source](https://github.com/hritikS0/ToolstackAi)
 
-### `01` · Now
+> **Medium:** React, TypeScript, Node.js, Express, PostgreSQL, Prisma, NVIDIA NIM, Supabase<br>
+> **Dimensions:** one workspace, many tools
 
-**Mapglo** — *Out-of-home advertising analytics platform* `Active`
-
-- Site creation workflow and the backend API powering it
-- Role and permission system (RBAC) for vendor and agency teams
-- Three distinct role-based portals plus the public landing experience
-- v1 AI chat assistant integrated via a unified provider interface
-
-<sub>`Next.js 15` · `TypeScript` · `Tailwind CSS`</sub>
+Chat that streams token by token, with a fallback when a stream drops. Vision chat over image attachments and a long-term memory store. PDF chat built on a RAG pipeline: vector embeddings with cosine-similarity retrieval. The model can call tools to create and update real tasks, habits, goals and projects from plain-language requests. An IMAP mail sync triages the inbox with categories, urgency scores, summaries and reply drafts. API keys and mail passwords are encrypted at rest, and every request is validated with Zod.
 
 <br>
 
-<img src="assets/divider.svg" width="100%" alt="" />
+### II. Android Home Lab
+*A spare phone, promoted to server*
 
-### `02` · Featured — ToolStack AI
+> **Medium:** Linux, Termux, Tailscale, GitHub Actions, PM2<br>
+> **Cost to host:** nothing
 
-**One workspace for chat, documents, vision, mail, and persistent memory.**
-
-[`Live Demo ↗`](https://toolstack-ai.vercel.app) &nbsp;·&nbsp; [`Source Code ↗`](https://github.com/hritikS0/ToolstackAi)
+An old Android phone running persistent Node services. Remote administration over a private Tailscale network, with no public ports exposed. A GitHub Actions pipeline deploys to the device in under 45 seconds, and PM2 restarts the services.
 
 <br>
+
+### III. Commissions
+*Built at TechPlek Technologies, Dec 2025 – Present*
+
+**Mapglo — Outdoor Advertising Analytics Platform** (React, Next.js 15, TypeScript, Tailwind CSS, Node.js, MongoDB, Geospatial Data)
+Two-sided OOH location-intelligence SaaS: discover, compare and shortlist outdoor media sites, with agency, vendor and admin portals. Built the site-creation form and backend API for listing outdoor media sites, implemented custom role creation and granular RBAC permissions for vendor and agency teams, developed three role-based portals plus the public landing page, and integrated an AI chat assistant through the platform's AI provider interface.
+
+**Aavya Holidays — Resort Membership** (Next.js, Node.js, PostgreSQL, SMS OTP (DLT), Payments)
+Multi-resort privilege-card platform: members buy cards and redeem room, F&B, spa and upgrade vouchers; resort staff verify via OTP; admin manages offers, blackouts and reports. Built member-facing interfaces, backend APIs for membership management and coupon redemption, and a web-based OTP verification flow to prevent unauthorized redemptions.
+
+**Shailshuta Logistics** (React, TypeScript, Node.js, Express, PostgreSQL, Prisma)
+Shipment tracking and customer operations: 20+ REST endpoints, JWT authentication with route-level role-based access control, and Linux staging deploys monitored with PM2 (log rotation and error alerts included).
+
+**Digital Signage Platform** (React, Node.js, PostgreSQL, AWS S3, Raspberry Pi, Linux)
+Backend services and an admin console that distribute media to Raspberry Pi players and keep them in sync. Players download straight from S3 through pre-signed URLs instead of through the API server. I reworked the boot and provisioning scripts to lower the player's memory use and make it more stable.
+
+<img src="assets/brush-divider.svg" width="100%" alt="" />
+
+## The Palette
 
 <div align="center">
 
-<img src="assets/pipeline.svg" width="100%" alt="ToolStack AI data flow: React 19 client, Express 5 API, NVIDIA NIM LLM, PostgreSQL, RAG, and Actions" />
-
-</div>
-
-<br>
-
-| Capability | Implementation |
-| :--- | :--- |
-| **Stream** | SSE token streaming with automatic non-streaming fallback |
-| **Vision** | Multimodal image-attachment chat |
-| **Memory** | Long-term memory store persisting across conversations |
-| **Actions** | Tool calling that creates and updates real tasks, habits, goals, and projects |
-| **Docs** | PDF chat via RAG — vector embeddings + cosine-similarity retrieval |
-| **Mail** | IMAP sync with AI triage: categories, urgency scores, summaries, and reply drafts |
-| **Security** | API keys and mail credentials encrypted at rest; Zod validation on every input |
-
-<br>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-### `03` · Stack
-
-<div align="center">
-
-<img src="assets/stack-orbit.svg" width="100%" alt="Technical stack matrix across Frontend, Backend, Data, AI Systems, and Infrastructure" />
+<img src="assets/palette.svg" width="100%" alt="Twelve oil-paint brushstroke swatches labelled TypeScript, React, Next.js, Node.js, PostgreSQL, Prisma, Docker, Linux, Redis, Amazon S3, RAG, and SSE" />
 
 </div>
 
 <details>
-<summary><code>tree ~/stack</code> &nbsp;— plain-text view</summary>
+<summary>The full colour chart</summary>
 
-```text
-~/stack
-├── frontend   React · Next.js · Tailwind CSS · Material UI · TanStack Query
-├── backend    Node.js · Express · REST · JWT · RBAC · Prisma · Mongoose · Zod
-├── data       PostgreSQL · MongoDB · Redis · Amazon S3
-├── ai         LLM APIs · tool calling · RAG · vector embeddings · semantic search · SSE
-├── infra      Linux · PM2 · Docker / Compose · GitHub Actions · Vercel · Render · Tailscale
-└── languages  TypeScript · JavaScript · Python
-```
+- **Languages:** JavaScript (ES6+), TypeScript, Python, HTML5, CSS3
+- **Frontend:** React.js, Next.js, Tailwind CSS, Material UI, Redux, Zustand
+- **Backend:** Node.js, Express.js, REST APIs, JWT Authentication, RBAC, Prisma ORM, Mongoose, Zod
+- **Data:** PostgreSQL, MongoDB, Redis, Amazon S3
+- **AI:** LLM API Integration, Tool Calling, RAG, Vector Embeddings, Semantic Search, SSE Streaming
+- **Studio equipment:** Linux, Docker, Docker Compose, PM2, Git, GitHub Actions, Vercel, Render, Tailscale
 
 </details>
 
-<br>
+<img src="assets/brush-divider.svg" width="100%" alt="" />
 
-<img src="assets/divider.svg" width="100%" alt="" />
-
-### `04` · Hardware & Shipped
-
-**Android Home Lab** — *Self-hosted Linux server on a spare Android phone, zero hosting cost*
-- **Runtime:** Termux running Node.js services managed by PM2 with auto-restart
-- **Deploy:** Automated GitHub Actions pipeline deploying in under 45 seconds
-- **Network:** Tailscale private mesh — SSH from anywhere with zero public ports exposed
-
-**Shailshuta Logistics** — *Shipment tracking & customer operations*
-- 20+ REST endpoints backed by Prisma + PostgreSQL
-- JWT authentication with route-level RBAC middleware
-- Linux staging deployments with PM2, log rotation, and error alerting
-
-**pDOOH Signage Platform** — *Digital signage for Raspberry Pi players*
-- Backend and admin console for media distribution and device synchronization
-- S3 pre-signed URLs so players pull media directly from object storage
-- Reworked boot and provisioning scripts for lower memory usage and higher player stability
-
-<br>
-
-<img src="assets/divider.svg" width="100%" alt="" />
-
-### `05` · Connect
+## Visit the Studio
 
 <div align="center">
 
-[`Portfolio`](https://hritiik.me) &nbsp;·&nbsp; [`LinkedIn`](https://www.linkedin.com/in/hritik-sharma-91336430b/) &nbsp;·&nbsp; [`GitHub`](https://github.com/hritikS0) &nbsp;·&nbsp; [`Email`](mailto:sharmahritik8077@gmail.com)
+[**LinkedIn**](https://www.linkedin.com/in/hritik-sharma-91336430b/) &nbsp;·&nbsp; [**GitHub**](https://github.com/hritikS0) &nbsp;·&nbsp; [**Email**](mailto:sharmahritik8077@gmail.com)
 
 <br>
 
-<img src="assets/pulse.svg" width="100%" alt="hritik@sys ~ status: open_to_opportunities" />
+<em>Open to interesting work.</em>
+
+<img src="assets/brush-divider.svg" width="60%" alt="" />
 
 </div>
